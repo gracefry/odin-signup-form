@@ -6,6 +6,7 @@ Creating a functional sign-up form from the following reference image:
 
 Skills demonstrated:
 * Emmet abbreviations
+* Relative and absolute units (e.g. `px` vs. `rem/em`)
 * Knowledge and implementation of different font family sources (e.g. online font libraries, downloaded fonts etc.)
 * CSS pseudo-classes, pseudo-elements and attribute selectors
 * Positioning modalities such as `sticky`, `fixed`, `absolute` etc.
