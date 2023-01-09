@@ -1,0 +1,79 @@
+:root {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#side-panel {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    position: relative;
+
+    background-image: url("src/sideimage.jpg");
+    background-color: rgb(38, 63, 20);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+    @font-face {
+        font-family: "Norse-Bold";
+        src: url("src/Norse-Bold.otf");
+    }
+
+    #logo-box {
+        position: absolute;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+        background-color: rgba(0,0,0,0.5);
+        top: 20%;
+
+        font-family: 'Norse-Bold', 'Source Sans Pro', sans-serif;
+        color: #F9FAFB;
+        font-size: 4.5rem;
+    }
+        #box-content {
+            display: flex;
+            padding: 0.75rem;
+        }
+
+            #box-content p {
+                display: flex;
+                align-items: center;
+                flex: 1;
+                margin: 0;
+            }
+
+            #box-content img {
+                height: 6rem;
+                width: auto;
+                flex: 0;
+                display: flex;
+                align-items: center;
+            }
+
+    #image-credit {
+        position: absolute;
+        bottom: 2.5%;
+        width: 100%;
+        text-align: center;
+
+        color: #F9FAFB;
+        font-size: 0.7rem;
+    }
+
+        #image-credit a {
+            color: #F9FAFB;
+        }
+
+#main-panel {
+    flex: 3;
+    background-color: #F9FAFB;
+}
