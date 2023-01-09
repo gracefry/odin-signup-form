@@ -25,7 +25,44 @@
         </div>
     </div>
     <div id="main-panel">
-        <h1>hi</h1>
+        <div id="main-content">
+            <div class="text" id="intro-text">
+                <p>This is not a real online service! You know you need something like
+                    this in your life to help you realize your deepest dreams. <br />
+                    Sign up <i>now</i> to get started.
+                </p>
+                <p>You <i>know</i> you want to.</p>
+            </div>
+            <div id="form">
+                <p>Let's do this!</p>
+                <form action="">
+                    <div id="column1">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" id="first-name" name="first-name">
+
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div id="column2">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" id="last-name" name="last-name">
+                    
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" id="phone" name="phone-number" pattern="^\d{10}$">
+                        
+                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <input type="confirm-password" id="confirm-password" name="confirm-password" required>
+                    </div>
+                </form>
+            </div>
+            <div class="text" id="end-text">
+                <button type="submission">Create Account</button>
+                <p>Already have an account? <a href>Log in</a></a></p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
