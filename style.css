@@ -87,10 +87,13 @@ body {
     #intro-text {
         font-weight: 600;
         font-size: 1.3rem;
-        margin: 6em 6em 2em 2em;
+        margin-left: 2em;
+        margin-bottom: 2em;
+        margin-top: 15%;
+        margin-right: 15%;
     }
 
-    #form {
+    #form-box {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -99,7 +102,7 @@ body {
         box-shadow: 0.2rem 0.2rem 0.2rem #D9DADB;
     }
 
-        #form p {
+        #form-box p {
             font-weight: 600;
             font-size: 1.3rem;
             margin-top: 0;
@@ -152,6 +155,7 @@ body {
             border:#596D48;
             color: #FFFFFF;
             box-shadow: 0.3rem 0.3rem 0.3rem #D9DADB;
+            cursor: pointer;
         }
 
         #end-text a {
